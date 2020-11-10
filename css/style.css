@@ -119,12 +119,14 @@ div input:focus {
     background-position: 0 43%;
     border-bottom: 0.35rem solid #4d3824;
     margin: 0;
+    width: 100%;
 }
 
 nav {
     margin: 0;
     background-color: rgb(219, 198, 177);
     border-bottom: 0.2rem solid #4d3824;
+    width: 100%;
 }
 
 nav ul {
@@ -143,6 +145,7 @@ nav ul {
 @media (max-width: 800px) {
     nav ul {
         flex-direction: column;
+        width: 100%;
     }
 }
 
@@ -175,6 +178,7 @@ section {
     flex-wrap: row nowrap;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 aside {
@@ -182,13 +186,12 @@ aside {
 }
 
 .content {
-    flex-basis: 60%;
+    flex-basis: 80%;
     margin: 0 auto;
 }
 
 .asideup {
     height: 6.5rem;
-    /*background-color: rgba(95, 158, 160, 0.226);*/
     background-image: linear-gradient(rgba(95, 158, 160, 0.226), rgba(206, 178, 151, 0.308));
 }
 
