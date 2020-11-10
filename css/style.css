@@ -147,6 +147,18 @@ nav ul {
         flex-direction: column;
         width: 100%;
     }
+    section {
+        flex-direction: column-reverse;
+    }
+    aside {
+        flex: 100%;
+    }
+    .content {
+        flex: 100%;
+    }
+    .content h1 {
+        margin: 0 auto;
+    }
 }
 
 nav ul li {
@@ -197,7 +209,6 @@ aside {
 
 .asidedown {
     background-color: rgba(206, 178, 151, 0.308);
-    height: 60rem;
     position: relative;
     top: -150px;
     padding: 0;
