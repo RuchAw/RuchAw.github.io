@@ -275,3 +275,7 @@ body {
 .button:active {
     background-color: white;
 }
+
+.off {
+    display: none;
+}
